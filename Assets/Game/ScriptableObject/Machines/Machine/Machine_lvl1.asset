@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Machine_lvl1
   m_EditorClassIdentifier: 
   ID: 1
-  TimeToCreateBox: 3
+  TimeToCreateBox: 10
   MaxBoxStorage: 3
-  BotPrice: 125
+  BotPrice: 150
   BoxPrefab: {fileID: 8610284112471623216, guid: 6a2862685dd1b694980ecf75ac7b3c51, type: 3}
   WarningImage: {fileID: 864656760, guid: 224d365d54d45074bb7d69c57ba4b164, type: 3}
   ProgressBarImage: {fileID: -1148943713, guid: 224d365d54d45074bb7d69c57ba4b164, type: 3}

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f5c23285e139a645baab0866ab2583c, type: 3}
   m_Name: Box_lvl2
   m_EditorClassIdentifier: 
-  Price: 30
+  Price: 40
   PrefabBox: {fileID: 8610284112471623216, guid: daf0dcea0f81758499d0df4e8aa308ae, type: 3}

@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class SettingMenu : MonoBehaviour
@@ -105,6 +105,8 @@ public class SettingMenu : MonoBehaviour
             print("Link in Telegram group");
         });
     }
+
+    //По настройкам пока заглушки звуков нет чтобы им выключать громкость а теги лыбо в источниках света офать либо в Lighting короче тоже не тяжко просто я обычно настройки в последнюю очередь делаю
 
     private void MusicOff()
     {

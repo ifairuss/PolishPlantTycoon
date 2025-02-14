@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 528694540788d2449b234b98847443b2, type: 3}
+  m_Name: Machine_lvl2
+  m_EditorClassIdentifier: 
+  MachineDescription: Produces 4 boxes per minute
+  MachinePrice: 100
+  MachineImage: {fileID: -1848401774, guid: 224d365d54d45074bb7d69c57ba4b164, type: 3}
+  MachinePrefab: {fileID: 1425597742785404898, guid: 761269a35dd747a459b6867453fd6577, type: 3}

@@ -1,4 +1,6 @@
-﻿[System.Serializable]
+﻿using Unity.Collections;
+
+[System.Serializable]
 public class SaveData
 {
     //Здесь будут все данные которые нада сохранить

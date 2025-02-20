@@ -19,11 +19,11 @@ public class MachineAnimation : MonoBehaviour
 
     public int BotPrice => _machineInformation.BotPrice;
 
-    private int _machineID;
+    public int MachineID { get; private set; }
 
     private void Start()
     {
-        _machineID = _machineInformation.ID;
+        MachineID = _machineInformation.ID;
 
         _progressBarStorage = GameObject.FindWithTag("MachineProgress").GetComponent<Transform>();
         _camera = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();

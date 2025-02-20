@@ -35,8 +35,8 @@ public class BuyMachineButton : MonoBehaviour
         {
             if (GameManager.PlayerMoney >= _price)
             {
-                var Machine = Instantiate(_machinePrefab, _bildingMachinePosition, Quaternion.Euler(0, -90, 0)).GetComponent<Transform>();
-                Machine.SetParent(_machineStoragel);
+                var Machine = Instantiate(_machinePrefab, _bildingMachinePosition, Quaternion.Euler(0, -90, 0)).GetComponent<MachineAnimation>();
+                Machine.transform.SetParent(_machineStoragel);
                 _gameManager.GetMoney(_price);
                 var menu = GameObject.FindWithTag("BuyMachineMenu").GetComponent<MachineMenu>();
                 menu.gameObject.SetActive(false);
